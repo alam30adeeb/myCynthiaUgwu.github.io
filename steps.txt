@@ -1,0 +1,4 @@
+SMOOTH SCROLLING
+    locomotive js github -> loco.css -> js(smooth) code in script.js -> attaching css -> attaching script -> attaching locomotive js cdn min.js url
+
+    

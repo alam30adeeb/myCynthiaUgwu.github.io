@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"General Sans Medium";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#miniCircle{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 99999;
+    position: absolute;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+.bounding{
+    /* background-color: red; */
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .boundingElem{
+    transform: translateY(100%);
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+#nav h4{
+    font-weight: 450;
+}
+#heading{
+    margin-top: 70px;
+    padding-left: 40px;
+}
+#heading h1{
+    opacity: 0.6;
+    font-size: 10vw;
+    line-height: 0.9;
+    font-weight: 200;
+}
+#secondh1{
+    margin-left: 150px;
+}
+.blockText{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.blockText h5{
+    text-align: right;
+    font-size: 1vw;
+    padding-top: 15px;
+}
+#small-heading{
+    text-align: right;
+    padding-right: 40px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#small-heading h5{
+    font-size: 1vw;
+    padding-top: 15px;
+}
+#heroFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    width: 100%;
+    bottom: 2.5%;
+}
+#heroFooter a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1vw;
+}
+#iconSet{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#iconSet i{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    opacity: 0.6;
+    padding: 5px;
+}
+#second {
+    color: #fff;
+    padding-right: 10vw;
+    padding-left: 40px;
+    padding-top: 200px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+
+.lastElem{
+    border-bottom: 1px solid #888;
+}
+
+.elem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+#about{
+    width: 100%;
+    background-color: black;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 35vw;
+    padding-right: 14vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 60px; */
+}
+#about img{
+    width: 250px;
+}
+#about #aboutText{
+    width: 400px;
+}
+#about #aboutText h5{
+    opacity: 0.6;
+    font-size: 1vw;
+}
+#about #aboutText p{
+    font-size: 1.3vw;
+    font-weight: 10px;
+    margin-bottom: 23px;
+}
+#about #aboutText a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+#subscribe{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0 40px;
+    padding-bottom: 10vh;
+}
+#subscribe h5{
+    opacity: 0.6;
+    padding-bottom: 5px;
+}
+#subscribe h3{
+    font-size: 1vw;
+}
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 40px 20px 40px;
+}
+#footer #leftPart{
+    display: flex;
+    gap: 30px;
+    font-size: 1.3vw;
+}
+#footer #rightPart{
+    display: flex;
+    gap: 60px;
+    font-size: 1.1vw;
+}
