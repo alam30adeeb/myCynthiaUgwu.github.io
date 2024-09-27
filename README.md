@@ -1,3 +1,3 @@
 # myCynthiaUgwu.github.io
-Live link ------vv
+Live link ------>
 https://github.com/alam30adeeb/myCynthiaUgwu.github.io
